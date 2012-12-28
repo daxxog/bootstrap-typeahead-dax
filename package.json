@@ -1,0 +1,20 @@
+{
+    "name"        : "cs-bs-typeahead",
+    "description" : "coffeeshop.js repo for bootstrap-typeahead-dax",
+    "homepage"    : "https://github.com/daxxog/bootstrap-typeahead-dax",
+    "main"        : "bootstrap-typeahead.min.js",
+    "version"     : "0.0.1",
+    "engines": { "node" : ">=0.8.15" },
+    "maintainers": [{
+        "name"  : "David Volm",
+        "email" : "david@volminator.com",
+        "web"   : "http://daxxog.com/"
+    }],
+    "repositories": [{
+        "type" : "git",
+        "url"  : "https://github.com/daxxog/bootstrap-typeahead-dax.git"
+    }],
+    "scripts": {
+        "install": "bash ./cs_install.sh"
+    }
+}

@@ -3,6 +3,12 @@ bootstrap-typeahead-dax
 
 a few bootstrap-typeahead mods.
 
+Install on [coffeeshop.js](https://github.com/daxxog/coffeeshop.js)
+--------------------------------------------------------------------
+```bash
+npm install https://github.com/daxxog/bootstrap-typeahead-dax/tarball/master
+```
+
 New feature: events
 ------------------
 * typeahead-select
