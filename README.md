@@ -8,6 +8,9 @@ Install on [coffeeshop.js](https://github.com/daxxog/coffeeshop.js)
 ```bash
 npm install https://github.com/daxxog/bootstrap-typeahead-dax/tarball/master
 ```
+```javascript
+cs.bind('cs-bs-typeahead', 'npm'); //bind cs-bs-typeahead to the app
+```
 
 New feature: events
 ------------------
