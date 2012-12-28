@@ -48,7 +48,7 @@
       this.$element
         .val(this.updater(val))
         .change()
-      this.$element.trigger('typeahead-select', this.$element)
+      this.$element.trigger('typeahead-select')
       return this.hide()
     }
 
@@ -70,14 +70,14 @@
         .show()
 
       this.shown = true
-      this.$element.trigger('typeahead-show', this.$element)
+      this.$element.trigger('typeahead-show')
       return this
     }
 
   , hide: function () {
       this.$menu.hide()
       this.shown = false
-      this.$element.trigger('typeahead-hide', this.$element)
+      this.$element.trigger('typeahead-hide')
       return this
     }
 
@@ -257,7 +257,7 @@
 
       e.stopPropagation()
       e.preventDefault()
-      this.$element.trigger('typeahead-keyup', this.$element)
+      this.$element.trigger('typeahead-keyup')
   }
 
   , blur: function (e) {
@@ -269,7 +269,7 @@
       e.stopPropagation()
       e.preventDefault()
       this.select()
-      this.$element.trigger('typeahead-click', this.$element)
+      this.$element.trigger('typeahead-click')
     }
 
   , mouseenter: function (e) {
